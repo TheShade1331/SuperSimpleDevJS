@@ -83,5 +83,12 @@ did:
 
 & Finished!!
 
+# CSS by BroCode
+- A Style Sheet Language used for Describing the Presentation of a Document Written in a Markup Language such as HTML.
 
-
+did:
+1. Inline, Internal & External:- id & class
+2. Font, Font Family Importing Font from Web
+3. Border- Specific Border(left,right,top,bottom)
+4. Background - img, graadient,size=cover, etc
+5. 
