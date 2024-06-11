@@ -1,0 +1,30 @@
+<!-- <div id="result"></div> -->
+
+<!-- WAP to read 2 numbers and print addition of those two numbers -->
+<body>
+    <h1>FizzBuzz Problem</h1>
+    <button onclick="FizzBuzz()">submit</button>
+    <div id="result">Hello rahul and sagar</div>
+  </body>
+
+<script>
+    function FizzBuzz(){
+    result = '';
+    for (i = 1; i <= 100; i++) {
+    if(i%3 == 0 && i%15!=0){
+        result += "fizz" + '<br>'
+    }
+    else if(i%5 == 0 && i%15!=0){
+        result += "buzz" + '<br>'
+    }
+    else if(i%15 == 0){
+        result += "fizzbuzz" + '<br>'
+    }
+    else{
+        result += i + '<br>'
+    }
+    console.log(`${result}`);
+    }
+    document.getElementById('result').innerHTML= result
+}
+</script>

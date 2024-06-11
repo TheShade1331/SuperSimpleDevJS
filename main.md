@@ -91,4 +91,4 @@ did:
 2. Font, Font Family Importing Font from Web
 3. Border- Specific Border(left,right,top,bottom)
 4. Background - img, graadient,size=cover, etc
-5. 
+5. Margins - 

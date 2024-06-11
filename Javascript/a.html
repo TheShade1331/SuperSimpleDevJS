@@ -1,0 +1,19 @@
+<head></head>
+<body>
+  <h1>Sum of two numbers</h1>
+  <input type="text" id="num1" placeholder="'Enter number 1" />
+  <input type="text" id="num2" placeholder="'Enter number 2" />
+  <button onclick="getSum()">submit</button>
+  <div id="result">Hello rahul and sagar</div>
+</body>
+<script>
+  function getSum(){
+      num1 = parseInt(document.getElementById('num1').value);
+      num2 = parseInt(document.getElementById('num2').value);
+      res = (num1+num2)
+      Addition = `Adition of ${num1} and ${num2} is ${res}`
+    //   console.log(Square of ${num1} is ${num1*num1});
+       document.getElementById('result').innerHTML =Addition
+
+  }
+</script>

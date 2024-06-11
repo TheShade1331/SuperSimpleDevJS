@@ -1,0 +1,21 @@
+<!-- <div id="result"></div> -->
+
+<!-- WAP to read 2 numbers and print addition of those two numbers -->
+<body>
+    <h1>Sum of two numbers</h1>
+    <input type="text" id="num1" placeholder="'Enter number 1" />
+    <button onclick="PrintNum()">submit</button>
+    <div id="result">Hello rahul and sagar</div>
+  </body>
+
+<script>
+    function PrintNum(){
+    num1 = parseInt(document.getElementById('num1').value);
+    result = '';
+    for (i = 0; i <= num1; i++) {
+    result += (i**3) + '<br>'
+    console.log(`${result}`);
+    }
+    document.getElementById('result').innerHTML= result
+}
+</script>
